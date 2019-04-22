@@ -1,9 +1,9 @@
 package j2se;
 
 public interface AD {
-	//public void physicAttack();
+    //public void physicAttack();
 	
-	default public void attack() {
-		System.out.println("AD英雄进行了攻击！");
-	}
+    default public void attack() {
+    System.out.println("AD英雄进行了攻击！");
+    }
 }
